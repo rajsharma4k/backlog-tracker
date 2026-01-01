@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Backlog Tracker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f4f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      width: 100%;
+      max-width: 350px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    label {
+      font-size: 14px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0 15px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    .stats {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    .buttons {
+      display: flex;
+      gap: 10px;
+    }
+    button {
+      flex: 1;
+      padding: 10px;
+      font-size: 14px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .add { background: #bbf7d0; }
+    .sub { background: #fde68a; }
+    .reset { background: #fca5a5; }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <h1>📘 Backlog Tracker</h1>
+
+  <label>Total Backlog Lectures</label>
+  <input type="number" id="total" value="145"/>
+
+  <label>Lectures Completed</label>
+  <input type="number" id="done" value="0"/>
+
+  <div class="stats">
+    <p><b>Remaining:</b> <span id="remaining">145</span></p>
+    <p><b>Progress:</b> <span id="progress">0</span>%</p>
+  </div>
+
+  <div class="buttons">
+    <button class="add" onclick="add()">+1 Done</button>
+    <button class="sub" onclick="sub()">-1</button>
+    <button class="reset" onclick="resetDone()">Reset</button>
+  </div>
+</div>
+
+<script>
+  function update() {
+    const total = Number(document.getElementById("total").value);
+    const done = Number(document.getElementById("done").value);
+    const remaining = Math.max(total - done, 0);
+    const progress = total > 0 ? Math.round((done / total) * 100) : 0;
+
+    document.getElementById("remaining").innerText = remaining;
+    document.getElementById("progress").innerText = progress;
+  }
+
+  function add() {
+    const done = document.getElementById("done");
+    done.value = Number(done.value) + 1;
+    update();
+  }
+
+  function sub() {
+    const done = document.getElementById("done");
+    done.value = Math.max(Number(done.value) - 1, 0);
+    update();
+  }
+
+  function resetDone() {
+    document.getElementById("done").value = 0;
+    update();
+  }
+
+  document.getElementById("total").oninput = update;
+  document.getElementById("done").oninput = update;
+
+  update();
+</script>
+
+</body>
+</html>
