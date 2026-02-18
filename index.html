@@ -1,179 +1,118 @@
-            <!DOCTYPE html>
-<html lang="en">
+                        <!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>SharmaExpo | Founded by Raj Sharma</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Raj Sharma">
-    <meta name="description" content="SharmaExpo – SMM Panel | Super cheap & super fast">
-
+    <title>WebStore - Buy Ready Websites</title>
     <style>
-        * {
-            box-sizing: border-box;
-            font-family: "Segoe UI", Arial, sans-serif;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
         }
 
-        body {
-            margin: 0;
-            min-height: 100vh;
-            background: radial-gradient(circle at top, #3a3a3a, #111);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
+        header {
+            background-color: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
         }
 
         .container {
-            width: 100%;
-            max-width: 420px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
             padding: 20px;
         }
 
-        .logo {
+        .card {
+            background: white;
+            width: 250px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
             text-align: center;
-            font-size: 28px;
-            font-weight: bold;
-            margin-bottom: 10px;
         }
 
-        .logo span {
-            color: #f5c400;
+        .card h3 {
+            margin-top: 0;
         }
 
-        .headline {
-            text-align: center;
-            font-size: 30px;
-            font-weight: 800;
-            margin: 20px 0 10px;
-            line-height: 1.2;
+        .price {
+            font-size: 20px;
+            color: green;
+            margin: 10px 0;
         }
 
-        .subtitle {
-            text-align: center;
-            font-size: 14px;
-            color: #ccc;
-            margin-bottom: 25px;
-        }
-
-        .login-box {
-            background: #2b2b2f;
-            border-radius: 8px;
-            padding: 25px 20px;
-            box-shadow: 0 15px 30px rgba(0,0,0,0.4);
-        }
-
-        label {
-            font-size: 14px;
-            color: #ddd;
-            margin-bottom: 6px;
-            display: block;
-        }
-
-        input[type="text"],
-        input[type="password"] {
-            width: 100%;
-            padding: 12px;
-            background: #3a3a3f;
-            border: 1px solid #555;
-            border-radius: 4px;
-            color: #fff;
-            font-size: 15px;
-            margin-bottom: 15px;
-        }
-
-        input:focus {
-            outline: none;
-            border-color: #f5c400;
-        }
-
-        .options {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 13px;
-            margin-bottom: 18px;
-        }
-
-        .options label {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            color: #bbb;
-        }
-
-        .options a {
-            color: #f5c400;
-            text-decoration: none;
-        }
-
-        .options a:hover {
-            text-decoration: underline;
-        }
-
-        .btn {
-            width: 100%;
-            padding: 13px;
-            background: #f5c400;
+        button {
+            background: #007bff;
+            color: white;
             border: none;
-            border-radius: 4px;
-            font-size: 16px;
-            font-weight: bold;
-            color: #000;
+            padding: 10px 15px;
+            border-radius: 5px;
             cursor: pointer;
         }
 
-        .btn:hover {
-            background: #ffda2e;
+        button:hover {
+            background: #0056b3;
         }
 
         footer {
             text-align: center;
-            font-size: 12px;
-            color: #aaa;
-            margin-top: 18px;
+            padding: 15px;
+            background: #222;
+            color: white;
+            margin-top: 20px;
         }
     </style>
 </head>
-
 <body>
+
+<header>
+    <h1>WebStore</h1>
+    <p>Buy Ready-Made Websites Easily</p>
+</header>
 
 <div class="container">
 
-    <div class="logo">
-        Sharma<span>Expo</span>
+    <div class="card">
+        <h3>Ready Business Website</h3>
+        <p>Perfect for small businesses.</p>
+        <div class="price">₹2999</div>
+        <button onclick="buyNow('Business Website')">Buy Now</button>
     </div>
 
-    <div class="headline">
-        The First P2P Client–Developer Network!
+    <div class="card">
+        <h3>Blog Website</h3>
+        <p>Start your blogging journey today.</p>
+        <div class="price">₹1999</div>
+        <button onclick="buyNow('Blog Website')">Buy Now</button>
     </div>
 
-    <div class="subtitle">
-        SharmaExpo is a peer-to-peer collaboration platform that connects experienced developers with beginners and clients. It enables open discussions on coding errors, project challenges, and technical guidance to help users build, debug, and grow their projects efficiently.    </div>
-
-    <div class="login-box">
-        <form>
-            <label>Username</label>
-            <input type="text" placeholder="Enter username" required>
-
-            <label>Password</label>
-            <input type="password" placeholder="Enter password" required>
-
-            <div class="options">
-                <label>
-                    <input type="checkbox"> Remember me
-                </label>
-                <a href="#">Forgot password?</a>
-            </div>
-
-            <button class="btn" type="submit">Sign in</button>
-        </form>
+    <div class="card">
+        <h3>E-commerce Website</h3>
+        <p>Sell products online easily.</p>
+        <div class="price">₹4999</div>
+        <button onclick="buyNow('E-commerce Website')">Buy Now</button>
     </div>
 
-    <footer>
-        © 2026 SharmaExpo • Founded by Raj Sharma
-    </footer>
+    <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>Showcase your work professionally.</p>
+        <div class="price">₹1499</div>
+        <button onclick="buyNow('Portfolio Website')">Buy Now</button>
+    </div>
 
 </div>
+
+<footer>
+    © 2026 WebStore | All Rights Reserved
+</footer>
+
+<script>
+    function buyNow(product) {
+        alert("Thank you for choosing " + product + "! We will contact you soon.");
+    }
+</script>
 
 </body>
 </html>
