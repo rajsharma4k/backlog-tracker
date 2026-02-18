@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" class="light-style layout-navbar-fixed layout-wide " dir="ltr" data-theme="theme-default" data-assetss-path="/assetss/" data-template="front-pages">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="google-site-verification" content="d0A7kteueUC3SGvm1Ub2NVQfYiPO9ZqlGvfl5XsjvzY" />
+    <title>
+      The Rental Panel Seller - Rsipanel
+    </title>
+    <meta name="keywords" content="Cheap smm panel, rentalpanel, rentalsmm, Rentalpanel, rsipanel, rentalsmmpanel, perfectpanel, perfect panel, Smm Panels, Perfect Panel, Smm Panel Script, Smm Reseller Panel, Buy Smm Panel Script, Best Smm Panel Script, Smm Rent Panel, Rental smm panel,rent smm panel" />
+    <meta name="description" content="The Rental Panel is the best all-in-one solution for reselling or providing SMM services. Create an SMM panel with rentalpanel automated processes and build your own business!" />
+    <meta property="og:title" content="The Rental Panel is the cheapest perfect SMM panel provider" />
+    <meta property="og:description" content="Rental Panel is a unique Reseller Panel. Giving an easy-to-use panels to its users. The perfect panel with low prices, variety of features and payment methods." />
+    <meta property="og:url" content="https://rsipanel.com/" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="/assetss/img/favicon/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assetss/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="/assetss/vendor/css/rtl/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="/assetss/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="/assetss/css/demo.css" />
+    <link rel="stylesheet" href="/assetss/vendor/css/pages/front-page.css" />
+    <link rel="stylesheet" href="/assetss/vendor/libs/nouislider/nouislider.css" />
+    <link rel="stylesheet" href="/assetss/vendor/libs/swiper/swiper.css" />
+    <link rel="stylesheet" href="/assetss/vendor/css/pages/front-page-landing.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Color+Emoji" />
+    <script src="/assetss/vendor/js/helpers.js">
+    </script>
+    <script src="/assetss/js/front-config.js">
+    </script>
+    <script src="/assetss/vendor/js/dropdown-hover.js">
+    </script>
+    <script src="/assetss/vendor/js/mega-dropdown.js">
+    </script>
+    <style>
+      .media-xl{width:3.75rem;height:3.75rem;font-size:1.25rem}.text-bg-danger-soft-outline{color:#ce5a56;background-color:#f9ebeb!important;border:2px solid #f0cecc;display:flex;align-items:center;justify-content:space-around}.text-bg-success-soft-outline{color:#55b59e;background-color:#ebf6f3!important;border:2px solid #cce9e2;display:flex;align-items:center;justify-content:space-around}.text-bg-info-soft,.text-bg-info-soft-outline{color:#39baf6;background-color:#e7f7fe!important;border:2px solid #c4eafc;display:flex;align-items:center;justify-content:space-around}.text-bg-purple-soft-outline{color:#6f42c1;background-color:#eee8f8!important;border:2px solid #d4c6ec;display:flex;align-items:center;justify-content:space-around}.text-bg-primary-soft-outline{color:#3f3eed;background-color:#e8e8fd!important;border:2px solid #c5c5fa;display:flex;align-items:center;justify-content:space-around}.text-bg-indigo-soft-outline{color:#a425fe;background-color:#f4e5ff!important;border:2px solid #e4beff;display:flex;align-items:center;justify-content:space-around}.light-style .layout-navbar .navbar.landing-navbar{border-color:rgba(255,255,255,.68);background:rgb(255 255 255);box-shadow:0 .125rem .25rem rgba(161,172,184,.4)}.card{box-shadow:rgba(0,0,0,.05) 0 6px 24px 0,rgba(0,0,0,.03) 0 0 0 1px!important}.border{border:none!important}#landingFunFacts .card-body{display:flex;justify-content:space-between;align-items:center}.card.accordion-item{box-shadow:rgba(0,0,0,.04) 0 6px 24px 0,rgba(0,0,0,.03) 0 0 0 1px;padding:3px}.form-control{box-shadow:rgba(0,0,0,.05) 0 5px 10px 0,rgba(0,0,0,.08) 0 0 0 1px!important;border:none;padding:.48rem .875rem}@media (max-width:991px){.container,.container-fluid,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{padding-right:.7rem;padding-left:.7rem}}.app-brand-logo.demo svg{width:32px;height:32px}html:not([dir=rtl]) .ps-1{padding-left:0!important}.features-icon-box{background:#fff;box-shadow:rgba(0,0,0,.05) 0 6px 24px 0,rgba(0,0,0,.03) 0 0 0 1px;border-radius:8px;padding:20px}.app-brand-text.demo{font-size:1.3rem}html:not([dir=rtl]) .ms-2{margin-left:0!important}i{font-size:24px}@media (min-width:991px){.mrt{display:none!important}}.mrt{margin-top:-2px;margin-bottom:10px;margin-left:5px}.mtb{font-size:1.9rem!important;position:relative;top:16px;right:16px;color:#5d61ff}.btn-primary{box-shadow:#696cff 0 9px 20px -10px;padding:10px 15px}.landing-hero .btn-primary{margin:5px}.navbar-nav .btn-primary{box-shadow:#696cff 0 6px 20px -10px;border-radius:50px;padding:10px 11.7px;margin:0}.bg-label-primary{font-size:13px;padding:12px 20px;border-radius:8px}.btn-label-primary{padding:10px 15px}.mrt10,.mrt5,.mrt6,.mrt7,.mrt8,.mrt9{padding:25px 12px}.light-style .landing-hero{background:url(../assetss/img/shape-1.png) 315% 200% #ececec}.hero-text-box .mb-4{margin-bottom:.32rem!important}.bx-check:before{content:&#34;&#34;;color:#00e71d;font-weight:800}.bg-label-primary2 .bx-x:before,.bg-primary2 .bx-x:before{color:#e70000;font-weight:800}.list-unstyled .bg-label-primary{background-color:#e6ffe0!important}.list-unstyled .bg-label-primary2{background-color:#ffe0e0!important}.list-unstyled .bg-primary{background-color:#d2ffc9!important}.list-unstyled .bg-primary2{background-color:#ffc9c9!important}.features-icon-box i{font-size:48px!important}.mrt5{color:green;background:#d7ffd7;border:1px solid #90ee90;text-shadow:2px 2px 8px #90ee90;border-radius:10px}.mrt6{color:#000980;background:#0009802b;border:1px solid #0009805c;text-shadow:2px 2px 8px #0009805c;border-radius:10px}.mrt7{color:#f7c239;background:#f7c23945;border:1px solid #f7c23970;text-shadow:2px 2px 8px #f7c23975;border-radius:8px}.mrt8{color:#d7113d;background:#d7113d45;border:1px solid #d7113d75;text-shadow:2px 2px 8px #d7113d75;border-radius:8px}.mrt9{color:#ff3e1d;background:#ff3e1d45;border:1px solid #ff3e1d75;text-shadow:2px 2px 8px #ff3e1d75;border-radius:8px}.mrt10{color:#435971;background:#43597145;border:1px solid #43597175;text-shadow:2px 2px 8px #43597175;border-radius:8px}.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{color:#4b5e72}.landing-reviews {border-bottom-left-radius: 3.75rem;border-bottom-right-radius: 3.75rem;padding-bottom:30px}
+    </style>
+  </head>
+  <body>
+    <nav class="layout-navbar shadow-none py-0">
+      <div class="container">
+        <div class="navbar navbar-expand-lg landing-navbar px-3 px-md-4 ">
+          <div class="navbar-brand app-brand demo d-flex py-0 me-4">
+            <button class="navbar-toggler border-0 px-0 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="tf-icons bx bx-menu bx-sm align-middle"></i>
+            </button>
+            <a href="#" class="app-brand-link">            <span class="app-brand-logo demo">            <svg xmlns="http://www.w3.org/2000/svg" width="500" zoomAndPan="magnify" viewBox="0 0 375 375" height="500" preserveAspectRatio="xMidYMid meet" xmlns:v="https://vecta.io/nano">
+              <style>
+                .B{clip-rule:nonzero}.C{fill:#f4402b}
+              </style>
+              <defs>
+                <clipPath id="A">
+                  <path d="M54 85h174v104H54zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="B">
+                  <path d="M119.672 15.473L230 119.301l-65.793 69.91L53.879 85.387zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="C">
+                  <path d="M230.094 119.391L119.766 15.563l-65.793 69.91 110.328 103.828zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="D">
+                  <path d="M54 84h175v106H54zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="E">
+                  <path d="M119.672 15.473L230 119.301l-65.793 69.91L53.879 85.387zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="F">
+                  <path d="M230.094 119.391L119.766 15.563l-65.793 69.91 110.328 103.828zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="G">
+                  <path d="M60 86h190v126H60zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="H">
+                  <path d="M59.789 85.531l190.316 8.309-5.266 120.633-190.316-8.305zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="I">
+                  <path d="M244.809 214.426l-190.32-8.305 5.266-120.637 190.32 8.305zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="J">
+                  <path d="M59 85h192v128H59zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="K">
+                  <path d="M59.789 85.531l190.316 8.309-5.266 120.633-190.316-8.305zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="L">
+                  <path d="M244.809 214.426l-190.32-8.305 5.266-120.637 190.32 8.305zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="M">
+                  <path d="M12.594 142.695h133.941V248.57H12.594zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="N">
+                  <path d="M79.566 142.695l66.969 52.938-66.969 52.938-66.973-52.937zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="O">
+                  <path d="M91 193h174v95H91zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="P">
+                  <path d="M87.105 197.969l172.707-8.594 4.438 89.168-172.707 8.598zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="Q">
+                  <path d="M173.461 193.672l90.789 84.871-172.707 8.598zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="R">
+                  <path d="M163 94h186v185H163zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="S">
+                  <path d="M163.43 187.563l87.375-92.984 97.211 91.344-87.379 92.988zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="T">
+                  <path d="M163.43 187.563l87.375-92.984 97.211 91.344-87.379 92.988zm0 0" class="B">
+                  </path>
+                </clipPath>
+              </defs>
+              <g clip-path="url(#A)" class="C">
+                <g clip-path="url(#B)">
+                  <g clip-path="url(#C)">
+                    <path d="M227.973 120.727l-63.684 67.672L54.836 85.395s173.055 32.078 173.137 35.332zm0 0">
+                    </path>
+                  </g>
+                </g>
+              </g>
+              <g clip-path="url(#D)" class="C">
+                <g clip-path="url(#E)">
+                  <g clip-path="url(#F)">
+                    <path d="M54.406 85.852l109.449 103.004a.62.62 0 0 0 .891-.027l63.684-67.672c.121-.129.172-.289.184-.449-.02-.605-.031-1.066-7.949-3.031-4.496-1.125-11.121-2.629-19.656-4.453l-59.523-11.988L54.941 84.77c-.27-.043-.547.07-.664.34s-.074.555.129.742zm109.855 101.66L56.82 86.402l82.715 15.727c68.652 13.332 84.688 17.449 87.5 18.68zm0 0">
+                    </path>
+                  </g>
+                </g>
+              </g>
+              <g clip-path="url(#G)" class="C">
+                <g clip-path="url(#H)">
+                  <g clip-path="url(#I)">
+                    <path d="M244.152 211.352l5.09-116.621L60.629 86.5s180.527 127.625 183.523 124.852zm0 0">
+                    </path>
+                  </g>
+                </g>
+              </g>
+              <g clip-path="url(#J)" class="C">
+                <g clip-path="url(#K)">
+                  <g clip-path="url(#L)">
+                    <path d="M60.664 85.711l188.613 8.234a.78.78 0 0 1 .754.82l-5.09 116.617c-.008.223-.113.406-.246.559-.559.512-.988.906-9.691-4.5-4.953-3.059-12.113-7.699-21.23-13.785l-62.957-43.062L60.16 87.145c-.277-.203-.418-.555-.277-.898s.434-.551.781-.535zm187.758 9.773L63.277 87.406l86.641 60.652c72.156 50.102 89.914 60.922 93.484 62.375zm0 0">
+                    </path>
+                  </g>
+                </g>
+              </g>
+              <g clip-path="url(#M)">
+                <g clip-path="url(#N)">
+                  <path fill="#accf1d" d="M12.594 142.695h133.941V248.57H12.594zm0 0">
+                  </path>
+                </g>
+              </g>
+              <g clip-path="url(#O)">
+                <g clip-path="url(#P)">
+                  <g clip-path="url(#Q)">
+                    <path fill="#070cb4" d="M87.105 197.969l172.707-8.594 4.438 89.168-172.707 8.598zm0 0">
+                    </path>
+                  </g>
+                </g>
+              </g>
+              <g clip-path="url(#R)" class="C">
+                <g clip-path="url(#S)">
+                  <g clip-path="url(#T)">
+                    <path d="M163.43 187.563l87.375-92.984 97.211 91.344-87.379 92.988zm0 0">
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+</span>
+            <span class="app-brand-text demo menu-text fw-bold ms-2 ps-1">            Rsipanel
+</span>
+</a>
+          </div>
+          <!-- Menu logo wrapper: End -->
+          <!-- Menu wrapper: Start -->
+          <div class="collapse navbar-collapse landing-nav-menu" id="navbarSupportedContent">
+            <button class="navbar-toggler border-0 text-heading position-absolute end-0 top-0 scaleX-n1-rtl" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="tf-icons bx bx-x bx-sm mtb"></i>
+            </button>
+            <a href="#" class="app-brand-link mrt">            <span class="app-brand-logo demo">            <svg xmlns="http://www.w3.org/2000/svg" width="500" zoomAndPan="magnify" viewBox="0 0 375 375" height="500" preserveAspectRatio="xMidYMid meet" xmlns:v="https://vecta.io/nano">
+              <style>
+                .B{clip-rule:nonzero}.C{fill:#f4402b}
+              </style>
+              <defs>
+                <clipPath id="A">
+                  <path d="M54 85h174v104H54zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="B">
+                  <path d="M119.672 15.473L230 119.301l-65.793 69.91L53.879 85.387zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="C">
+                  <path d="M230.094 119.391L119.766 15.563l-65.793 69.91 110.328 103.828zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="D">
+                  <path d="M54 84h175v106H54zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="E">
+                  <path d="M119.672 15.473L230 119.301l-65.793 69.91L53.879 85.387zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="F">
+                  <path d="M230.094 119.391L119.766 15.563l-65.793 69.91 110.328 103.828zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="G">
+                  <path d="M60 86h190v126H60zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="H">
+                  <path d="M59.789 85.531l190.316 8.309-5.266 120.633-190.316-8.305zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="I">
+                  <path d="M244.809 214.426l-190.32-8.305 5.266-120.637 190.32 8.305zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="J">
+                  <path d="M59 85h192v128H59zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="K">
+                  <path d="M59.789 85.531l190.316 8.309-5.266 120.633-190.316-8.305zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="L">
+                  <path d="M244.809 214.426l-190.32-8.305 5.266-120.637 190.32 8.305zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="M">
+                  <path d="M12.594 142.695h133.941V248.57H12.594zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="N">
+                  <path d="M79.566 142.695l66.969 52.938-66.969 52.938-66.973-52.937zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="O">
+                  <path d="M91 193h174v95H91zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="P">
+                  <path d="M87.105 197.969l172.707-8.594 4.438 89.168-172.707 8.598zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="Q">
+                  <path d="M173.461 193.672l90.789 84.871-172.707 8.598zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="R">
+                  <path d="M163 94h186v185H163zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="S">
+                  <path d="M163.43 187.563l87.375-92.984 97.211 91.344-87.379 92.988zm0 0" class="B">
+                  </path>
+                </clipPath>
+                <clipPath id="T">
+                  <path d="M163.43 187.563l87.375-92.984 97.211 91.344-87.379 92.988zm0 0" class="B">
+                  </path>
+                </clipPath>
+              </defs>
+              <g clip-path="url(#A)" class="C">
+                <g clip-path="url(#B)">
+                  <g clip-path="url(#C)">
+                    <path d="M227.973 120.727l-63.684 67.672L54.836 85.395s173.055 32.078 173.137 35.332zm0 0">
+                    </path>
+                  </g>
+                </g>
+              </g>
+              <g clip-path="url(#D)" class="C">
+                <g clip-path="url(#E)">
+                  <g clip-path="url(#F)">
+                    <path d="M54.406 85.852l109.449 103.004a.62.62 0 0 0 .891-.027l63.684-67.672c.121-.129.172-.289.184-.449-.02-.605-.031-1.066-7.949-3.031-4.496-1.125-11.121-2.629-19.656-4.453l-59.523-11.988L54.941 84.77c-.27-.043-.547.07-.664.34s-.074.555.129.742zm109.855 101.66L56.82 86.402l82.715 15.727c68.652 13.332 84.688 17.449 87.5 18.68zm0 0">
+                    </path>
+                  </g>
+                </g>
+              </g>
+              <g clip-path="url(#G)
