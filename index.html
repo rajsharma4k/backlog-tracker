@@ -1,118 +1,340 @@
                                                 <!DOCTYPE html>
-<html>
-<head>
-    <title>GETWEB- Buy Ready Websites</title>
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="canonical" href="https://perfectpanel.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://files.perfectcdn.com" crossorigin="" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/png" sizes="192x192" href="https://files.perfectcdn.com/perfectpanel/external/rcofk9cu4jl25oc4.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="https://files.perfectcdn.com/perfectpanel/external/cx08ofcogncehmiz.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://files.perfectcdn.com/perfectpanel/external/6magungwerjx9zhk.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://files.perfectcdn.com/perfectpanel/external/u1z5qxolk9hwsxsj.png" />
+    <link rel="apple-touch-icon" href="https://files.perfectcdn.com/perfectpanel/external/c2cni29n5plojdlt.png" />
+    <link rel="manifest" href="/theme/img/favicons/site.webmanifest" />
+    <meta name="csrf-param" content="_csrf-perfectpanel" />
+    <meta name="csrf-token" content="4niGiWNtGwp-oUeJYN1cKPmO21RHrXyDhNJIY7ku6u2uEc67BQhCZT_DF8EI7RRFk-S_bCn9E8LAqg4U3mehjw==" />
+    <title>
+      Perfect Panel | The Best SMM Panels Platform
+    </title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="Perfect Panel is the best all-in-one solution for reselling or providing SMM services. Create an SMM panel with automated processes and build your own business!" />
+    <link href="/builds/styles/fonts.css?v=1771492287" media="print" onload="this.media=&#34;all&#34;" />
+    <link href="/builds/styles/main.css?v=1771492287" rel="preload" as="style" />
+    <link href="/builds/styles/main.css?v=1771492287" rel="stylesheet" />
+    <link rel="preload" href="/builds/static/Poppins-Medium.woff2" as="font" type="font/woff2" crossorigin="" />
+    <meta property="og:site_name" content="Perfect Panel" />
+    <!-- Google Tag Manager -->
+    <script>
+      window.addEventListener(&#39;load&#39;, function() {
+  (function(w,d,s,l,i){
+    w[l]=w[l]||[];
+    w[l].push({&#39;gtm.start&#39;: new Date().getTime(), event:&#39;gtm.js&#39;});
+    var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),
+        dl=l!=&#39;dataLayer&#39;?&#39;&amp;l=&#39;+l:&#39;&#39;;
+    j.async=true;
+    j.src=&#39;https://www.googletagmanager.com/gtm.js?id=&#39;+i+dl;
+    f.parentNode.insertBefore(j,f);
+  })(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-NKK82TJ&#39;);
+});
+    </script>
+    <!-- End Google Tag Manager -->
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #222;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-
-        .container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            padding: 20px;
-        }
-
-        .card {
-            background: white;
-            width: 250px;
-            margin: 15px;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-            text-align: center;
-        }
-
-        .card h3 {
-            margin-top: 0;
-        }
-
-        .price {
-            font-size: 20px;
-            color: green;
-            margin: 10px 0;
-        }
-
-        button {
-            background: #007bff;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background: #0056b3;
-        }
-
-        footer {
-            text-align: center;
-            padding: 15px;
-            background: #222;
-            color: white;
-            margin-top: 20px;
-        }
+      @font-face {
+        font-family: &#34;Poppins&#34;;
+        src: url(&#34;/builds/static/Poppins-Medium.woff2&#34;) format(&#34;woff2&#34;);
+        font-weight: 500;
+        font-display: swap;
+      }
+      .hero {
+        display: flex;
+        justify-content: center;
+        flex: 1 1;
+      }
+      .reponsive-image {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+      h1 {
+        font-size: 56px;
+        font-weight: 500;
+        line-height: 84px;
+      }
     </style>
-</head>
-<body>
-
-<header>
-    <h1>WebStore</h1>
-    <p>Buy Ready-Made Websites Easily</p>
-</header>
-
-<div class="container">
-
-    <div class="card">
-        <h3>Ready Business Website</h3>
-        <p>Perfect for small businesses.</p>
-        <div class="price">₹2999</div>
-        <button onclick="buyNow('Business Website')">Buy Now</button>
-    </div>
-
-    <div class="card">
-        <h3>Blog Website</h3>
-        <p>Start your blogging journey today.</p>
-        <div class="price">₹1999</div>
-        <button onclick="buyNow('Blog Website')">Buy Now</button>
-    </div>
-
-    <div class="card">
-        <h3>E-commerce Website</h3>
-        <p>Sell products online easily.</p>
-        <div class="price">₹4999</div>
-        <button onclick="buyNow('E-commerce Website')">Buy Now</button>
-    </div>
-
-    <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>Showcase your work professionally.</p>
-        <div class="price">₹1499</div>
-        <button onclick="buyNow('Portfolio Website')">Buy Now</button>
-    </div>
-
-</div>
-
-<footer>
-    © 2026 WebStore | All Rights Reserved
-</footer>
-
-<script>
-    function buyNow(product) {
-        alert("Thank you for choosing " + product + "! We will contact you soon.");
-    }
-</script>
-
-</body>
-</html>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md fixed-top" role="navigation">
+      <div class="container flex-wrap flex-md-nowrap">
+        <a class="navbar-brand order-1" href="/">        <img src="https://files.perfectcdn.com/perfectpanel/external/nufgjwwtbep6n6sh.svg" width="259" height="64" alt="Logo" class="reponsive-image navbar-logo" />
+</a>
+        <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse" data-bs-target="#perfectnavbar" aria-controls="perfectnavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <svg width="21" height="24">
+            <use href="/theme/img/icons/sprite.svg?1771492287#bars">
+            </use>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center order-4 order-md-3" id="perfectnavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/features">              Features
+</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pricing">              Pricing
+</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog">              Blog
+</a>
+            </li>
+            <li class="nav-item d-md-none d-block">
+              <a href="https://my.perfectpanel.com/signin" class="btn btn-secondary">              Sign in
+</a>
+              <a href="https://my.perfectpanel.com/signup" class="btn btn-primary mt-4">              Sign up
+</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-sign order-3 order-md-4">
+          <a href="https://my.perfectpanel.com/signin" class="btn btn-secondary d-none d-md-block">          Sign in
+</a>
+          <a href="https://my.perfectpanel.com/signup" class="btn btn-primary d-none d-md-block">          Sign up
+</a>
+        </div>
+      </div>
+    </nav>
+    <main role="main">
+      <section class="main">
+        <div class="container">
+          <div class="row align-items-center my-5">
+            <div class="col-12 col-md-6 col-lg-5 mb-4 mb-md-0">
+              <h1 class="mb-4">
+                Automate your SMM business
+              </h1>
+              <div class="text-big text-secondary">
+                The best platform to create a panel for reselling or providing SMM services.
+              </div>
+            </div>
+            <div class="hero">
+              <div class="hero-svg">
+                <svg class="reponsive-image" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="540" height="440" fill="none" viewBox="0 0 540 440">
+                  <defs>
+                    <linearGradient id="c" x1="139.512" x2="177.357" y1="280.944" y2="354.74" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#5078fa">
+                      </stop>
+                      <stop offset="1" stop-color="#698cff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="d" x1="102.19" x2="164.768" y1="330.991" y2="260.689" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fff" stop-opacity=".81">
+                      </stop>
+                      <stop offset="1" stop-color="#fff" stop-opacity="0">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="f" x1="161.56" x2="156.248" y1="295.21" y2="329.661" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fff">
+                      </stop>
+                      <stop offset="1" stop-color="#afcbff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="g" x1="84.871" x2="111.271" y1="312.406" y2="312.711" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#78a5ff">
+                      </stop>
+                      <stop offset="1" stop-color="#ebf5ff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="h" x1="128.823" x2="209.558" y1="357.748" y2="358.678" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#78a5ff">
+                      </stop>
+                      <stop offset="1" stop-color="#ebf5ff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="i" x1="339.094" x2="352.64" y1="267.017" y2="368.273" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#5078fa">
+                      </stop>
+                      <stop offset="1" stop-color="#6d90ff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="j" x1="305.392" x2="385.152" y1="333.568" y2="270.642" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fff" stop-opacity=".81">
+                      </stop>
+                      <stop offset="1" stop-color="#fff" stop-opacity="0">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="l" x1="355.734" x2="358.06" y1="312.351" y2="345.367" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fff">
+                      </stop>
+                      <stop offset="1" stop-color="#afcbff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="m" x1="305.644" x2="386.221" y1="363.843" y2="370.984" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#78a5ff">
+                      </stop>
+                      <stop offset="1" stop-color="#ebf5ff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="n" x1="402.698" x2="442.315" y1="366.154" y2="362.438" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#78a5ff">
+                      </stop>
+                      <stop offset="1" stop-color="#ebf5ff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="o" x1="368.541" x2="381.51" y1="107.491" y2="178.479" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#5078fa">
+                      </stop>
+                      <stop offset="1" stop-color="#6c8fff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="p" x1="404.356" x2="359.64" y1="164.456" y2="115.303" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fff" stop-opacity=".81">
+                      </stop>
+                      <stop offset="1" stop-color="#fff" stop-opacity="0">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="q" x1="352.933" x2="359.264" y1="189.133" y2="151.215" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#78a5ff">
+                      </stop>
+                      <stop offset="1" stop-color="#ebf5ff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="r" x1="431.351" x2="469.139" y1="164.167" y2="151.7" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#78a5ff">
+                      </stop>
+                      <stop offset="1" stop-color="#ebf5ff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="t" x1="388.544" x2="346.234" y1="134.307" y2="101.54" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fff">
+                      </stop>
+                      <stop offset="1" stop-color="#afcbff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="u" x1="132.668" x2="143.286" y1="176.025" y2="150.286" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#78a5ff">
+                      </stop>
+                      <stop offset="1" stop-color="#ebf5ff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="v" x1="170.19" x2="136.269" y1="115.687" y2="150.194" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#5179fb">
+                      </stop>
+                      <stop offset="1" stop-color="#678aff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="w" x1="207.034" x2="135.382" y1="86.69" y2="140.041" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fff" stop-opacity=".81">
+                      </stop>
+                      <stop offset="1" stop-color="#fff" stop-opacity="0">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="y" x1="173.101" x2="120.666" y1="111.667" y2="130.005" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fff">
+                      </stop>
+                      <stop offset="1" stop-color="#afcbff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="z" x1="89.195" x2="120.081" y1="152.892" y2="154.05" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#78a5ff">
+                      </stop>
+                      <stop offset="1" stop-color="#ebf5ff">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="A" x1="500.523" x2="358.798" y1="238.526" y2="234.356" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fff">
+                      </stop>
+                      <stop offset="1" stop-color="#fff" stop-opacity="0">
+                      </stop>
+                    </linearGradient>
+                    <linearGradient id="B" x1="58.523" x2="180.276" y1="220.772" y2="220.772" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fff">
+                      </stop>
+                      <stop offset="1" stop-color="#fff" stop-opacity="0">
+                      </stop>
+                    </linearGradient>
+                    <filter id="e" width="50.683" height="47.93" x="130.65" y="277.492" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix">
+                      </feFlood>
+                      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0">
+                      </feColorMatrix>
+                      <feOffset dx="-2" dy="2">
+                      </feOffset>
+                      <feComposite in2="hardAlpha" operator="out">
+                      </feComposite>
+                      <feColorMatrix values="0 0 0 0 0.211126 0 0 0 0 0.365556 0 0 0 0 0.871745 0 0 0 0.25 0">
+                      </feColorMatrix>
+                      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_2004_2524">
+                      </feBlend>
+                      <feBlend in="SourceGraphic" in2="effect1_dropShadow_2004_2524" result="shape">
+                      </feBlend>
+                    </filter>
+                    <filter id="k" width="61.294" height="57.144" x="322.716" y="281.692" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix">
+                      </feFlood>
+                      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0">
+                      </feColorMatrix>
+                      <feOffset dx="-2" dy="2">
+                      </feOffset>
+                      <feComposite in2="hardAlpha" operator="out">
+                      </feComposite>
+                      <feColorMatrix values="0 0 0 0 0.211126 0 0 0 0 0.365556 0 0 0 0 0.871745 0 0 0 0.25 0">
+                      </feColorMatrix>
+                      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_2004_2524">
+                      </feBlend>
+                      <feBlend in="SourceGraphic" in2="effect1_dropShadow_2004_2524" result="shape">
+                      </feBlend>
+                    </filter>
+                    <filter id="s" width="61.481" height="48.467" x="340.495" y="95.852" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix">
+                      </feFlood>
+                      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0">
+                      </feColorMatrix>
+                      <feOffset dx="-2" dy="2">
+                      </feOffset>
+                      <feComposite in2="hardAlpha" operator="out">
+                      </feComposite>
+                      <feColorMatrix values="0 0 0 0 0.211126 0 0 0 0 0.365556 0 0 0 0 0.871745 0 0 0 0.25 0">
+                      </feColorMatrix>
+                      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_2004_2524">
+                      </feBlend>
+                      <feBlend in="SourceGraphic" in2="effect1_dropShadow_2004_2524" result="shape">
+                      </feBlend>
+                    </filter>
+                    <filter id="x" width="57.435" height="50.949" x="131.991" y="89.848" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix">
+                      </feFlood>
+                      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0">
+                      </feColorMatrix>
+                      <feOffset dx="-2" dy="2">
+                      </feOffset>
+                      <feComposite in2="hardAlpha" operator="out">
+                      </feComposite>
+                      <feColorMatrix values="0 0 0 0 0.211126 0 0 0 0 0.365556 0 0 0 0 0.871745 0 0 0 0.56 0">
+                      </feColorMatrix>
+                      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_2004_2524">
+                      </feBlend>
+                      <feBlend in="SourceGraphic" in2="effect1_dropShadow_2004_2524" result="shape">
+                      </feBlend>
+                    </filter>
+                    <clipPath id="a">
+                      <use href="#reuse-0">
+                      </use>
+                    </clipPath>
+                    <path id="reuse-0" fill="#fff" d="M0 0h540v440H0z">
+                    </path>
+                  </defs>
+                  <g clip-path="url(#a)">
+                    <use href="#reuse-0">
+                    </use>
+                    <g opacity=".3">
+                      <path fill="#fff" d="M-20 149h563v42H-20z">
+                      </path>
+                      <path stroke="#79a6ff" d="M-19.5 149.5h65v41h-65z">
+                      </path>
+                      <path fill="#79a6ff" d="M-1.264 166.082a.84.84 0 0 1-.616-.252.84.84 0 0 1-.252-.616q0-.364.252-.616a.84.84 0 0 1 .616-.252q.35 0 .588.252a.84.84 0 0 1 .252.616.84.84 0 0 1-.252.616.78.78 0 0 1-.588.252m.616 1.246V175h-1.274v-7.672zm3.725 1.05v4.522q0 .56.238.798.238.224.826.224h.938V175H3.931q-1.064 0-1.596-.49t-.532-1.61v-4.522H.81v-1.05h.994v-1.932h1.274v1.932H5.08v1.05zm10.546 2.492q0 .364-.042.77H7.449q.07 1.134.77 1.778.714.63 1.722.63.826 0 1.372-.378.56-.392.784-1.036h1.372a3.33 3.33 0 0 1-1.232 1.806q-.924.686-2.296.686-1.092 0-1.96-.49a3.5 3.5 0 0 1-1.344-1.386q-.49-.91-.49-2.1t.476-2.086a3.3 3.3 0 0 1 1.33-1.372q.868-.49 1.988-.49 1.092 0 1.932.476t1.288 1.316q.462.826.462 1.876m-1.316-.266q0-.728-.322-1.246a2.02 2.02 0 0 0-.882-.798 2.6 2.6 0 0 0-1.218-.28q-.966 0-1.652.616-.672.616-.77 1.708zm12.224-3.416q.896 0 1.596.378.7.364 1.106 1.106t.406 1.806V175h-1.26v-4.34q0-1.148-.574-1.75-.56-.616-1.526-.616-.994 0-1.582.644-.588.63-.588 1.834V175h-1.26v-4.34q0-1.148-.574-1.75-.56-.616-1.526-.616-.994 0-1.582.644-.588.63-.588 1.834V175h-1.274v-7.672h1.274v1.106a2.53 2.53 0 0 1 1.008-.924q.643-.322 1.414-.322.966 0 1.708.434.741.434 1.106 1.274.321-.811 1.064-1.26a3.13 3.13 0 0 1 1.652-.448">
+                      </path>
+                      <path stroke="#79a6ff" d="M54.5 149.5h93v41h-93z">
+                      </path>
+                      <path fill="#79a6ff" d="M71.602 171.136q0-1.176.476-2.058a3.46 3.46 0 0 1 1.302-1.386q.84-.49 1.862-.49 1.008 0 1.75.434t1.106 1.092v-1.4h1.288V175h-1.288v-1.428q-.378.672-1.134 1.12-.742.434-1.736.434a3.5 3.5 0 0 1-1.848-.504 3.53 3.53 0 0 1-1.302-1.414q-.476-.91-.476-2.072m6.496.014q0-.869-.35-1.512a2.4 2.4 0 0 0-.952-.98 2.5 2.5 0 0 0-1.302-.35q-.714 0-1.302.336a2.44 2.44 0 0 0-.938.98q
